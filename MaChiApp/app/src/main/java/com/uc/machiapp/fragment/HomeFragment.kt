@@ -71,7 +71,7 @@ class HomeFragment : Fragment() {
         val userId = sharedPreferences?.getString("user_id", null)
 
         binding.tambahPost.setOnClickListener{
-            val intent = Intent(context, ItemsActivity::class.java)
+            val intent = Intent(context, ModalActivity::class.java)
             startActivity(intent)
         }
 
